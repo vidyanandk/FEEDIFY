@@ -15,7 +15,7 @@ mongoose
 app.use(
   cors({
     credentials: true,
-    origin: "http://localhost:5173", // Update the origin URL as needed
+    origin: "*", // Update the origin URL as needed
   })
 );
 app.use(express.json());
