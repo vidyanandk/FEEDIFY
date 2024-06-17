@@ -36,7 +36,7 @@ const Footer = () => {
         <p
           className="text-n-7 text-1.5xl lg:block underline cursor-pointer text-center"
           onClick={() =>
-            (window.location.href = "mailto:abcdefghi28672276@gmail.com")
+            (window.location.href = "mailto:vidyanand7014@gmail.com")
           }
         >
           Contact Us
@@ -48,10 +48,10 @@ const Footer = () => {
           <p className="text-n-5 text-1.5xl lg:block text-center">
             <img src={mail} width={16} height={16} alt="mail" />
             <a
-              href="mailto:abcdefghi28672276@gmail.com"
+              href="mailto:vidyanand7014@gmail.com"
               className="hover:underline"
             >
-              abcdefghi28672276@gmail.com
+              vidyanand7014@gmail.com
             </a>
           </p>
         </div>

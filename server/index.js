@@ -1,13 +1,13 @@
 const express = require("express");
 const dotenv = require("dotenv").config();
 const cors = require("cors");
-const mongoose = require("mongoose"); // Fix the mongoose import
+const mongoose = require("mongoose"); 
 const cookieParser = require("cookie-parser");
 const app = express();
 
 // Database connection
 mongoose
-  .connect(process.env.MONGO_URL)
+  .connect(process.env.MONGO_URL, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log("DATABASE IS CONNECTED"))
   .catch((err) => console.log("DATABASE NOT CONNECTED", err));
 
@@ -15,7 +15,7 @@ mongoose
 app.use(
   cors({
     credentials: true,
-    origin: "*", // Update the origin URL as needed
+    origin: "http://localhost:5173", // Ensure this URL matches exactly
   })
 );
 app.use(express.json());
