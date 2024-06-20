@@ -1,0 +1,15 @@
+{
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "/index.html"
+      }
+    ],
+    "redirects": [
+      {
+        "source": "/api/(.*)",
+        "destination": "http://localhost:8000/",
+        "statusCode": 308
+      }
+    ]
+  }

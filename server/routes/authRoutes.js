@@ -26,7 +26,7 @@ const {
 router.use(
   cors({
     credentials: true,
-    origin: "http://localhost:5173", // NEED CHANGES
+    origin: "https://feedify-frontend.vercel.app", // NEED CHANGES
   })
 );
 
