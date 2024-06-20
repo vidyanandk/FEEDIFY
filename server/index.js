@@ -12,14 +12,17 @@ mongoose
   .catch((err) => console.log("DATABASE NOT CONNECTED", err));
 
 // Middleware
-app.use(
-  cors({
-    credentials: true,
-    origin: "http://localhost:5173", // Ensure this URL matches exactly
-  })
-);
+const corsOptions={
+  credentials: true,
+  origin: "http://localhost:5173", // Ensure this URL matches exactly
+}
+
+app.options('*', cors(corsOptions));
+// app.use(
+//   cors()
+// );
 app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
+app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 // Routes
