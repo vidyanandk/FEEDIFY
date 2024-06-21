@@ -35,49 +35,48 @@ Feedify is a comprehensive student feedback analysis platform designed to stream
 ● NLP:
      ● Hugging Face
 ```
--- in server
-```bash
 
-npm init --yes
-npm i express mongoose dotenv nodemon cors
-npm i bcrypt  
-npm i jsonwebtoken cookie-parser
-```
+## Installation
+To get started with Feedify, follow these steps:
+ 1. Clone the repository:
+    ```git clone https://github.com/vidyanandk/FEEDIFY.git```
+ 2. Navigate to the project directory:
+    -Frontend
+        ```bash
+           cd frontend
+           npm install
+           npm run dev
+        ```
+    -Backend
+        ```bash
+            cd server
+            npm install
+            npm start
+        ```
 
--- in frontend
-```bash
-
-npm install
-npm i react-router-dom axios
-npm install react-hot-toast
-
-```
--- // CAUTION
+-CAUTION
 ```bash
 
 1. THERE IS SOME PROBLEM IN USEEFFECT IN USECONTEXT SO AFTER SUCCESSFUL LOGGED IN 
-   . RELOAD AGAIN.....
+    RELOAD the page .....
 
-2. ==>ADMIN EMAIL: nitjalandhar@nitj.ac.in
-      ADMIN PASSWORD: 123456789
+2. Admin Email: vidya@nitj.ac.in
+   Admin Password: 12345678
 
-3. ==>FACULTY EMAIL: sansa@nitj.ac.in
-       ADMIN PASSWORD: 123456789
+3. Faculty Email: vidy@nitj.ac.in
+   Faculty Password: 12345678
+
+4. Student Email: vk@nitj.ac.in
+   Student Password: 12345678
 
 ```
--- ** ADDED ANALYSIS, SUBMISSIONS, DELETE, NLP SUMMARIZER  ETC
-```bash
-1.  It's better to use your own BEARER {HF_API_KEY} IN getNLP() in authController.js
-    as it may have api limit use, make HF_API_KEY from huggingface site .
-```
 
-```bash
+## Contibution
+Contributions are always welcome! Just raise an issue, we will discuss it.
 
-===> Register with your own gmail(nitj domain) and then fill the form "Feedback of Courses and Teachers"
-     then login as given admin email and faculty email see submissions & analysis .
-===> plzz in additional comments/ suggestion write about 250-300 words to see nlp summarizer 
-===> avoid using NLP SUMMARIZER for one word or short answer
- 
-```
--- ** ADDED FACULTY, ACCESSIBLE TO  ETC
--- ** ADDED NLP SENTIMENT ANALYSIS 
+## Contact
+For any questions or inquiries, please contact us at vidyanandkumar200502@gmail.com
+
+#
+Feedify is dedicated to improving the educational experience through effective and efficient feedback analysis. We hope this project will help teachers, students, and administrators work together to create a better learning environment.
+
