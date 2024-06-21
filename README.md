@@ -6,18 +6,18 @@ Feedify is a comprehensive student feedback analysis platform designed to stream
 
 # Features
 ```bash
-● Form Creation and Assignment: Admins can create feedback forms for specific subjects and 
+- Form Creation and Assignment: Admins can create feedback forms for specific subjects and 
   assign them to the corresponding teachers and students.
-● Student Submission: Students can easily fill out the assigned feedback forms, providing their 
+- Student Submission: Students can easily fill out the assigned feedback forms, providing their 
   insights and opinions.
-● NLP Analysis:
+- NLP Analysis:
     ● Sentiment Analysis: Automatically assesses the overall sentiment of the feedback 
       (positive, negative, or neutral) and provides a percentage breakdown.
     ● Text Summarization: Generates concise summaries of all responses to reduce the time 
       required for teachers to review feedback.
-● Data Visualization: Provides bar and pie chart analyses for multiple-choice questions, 
+- Data Visualization: Provides bar and pie chart analyses for multiple-choice questions, 
   offering clear and intuitive visual representations of the feedback data.
-● Teacher and Admin Dashboards: Teachers can analyze feedback to identify their strengths and 
+- Teacher and Admin Dashboards: Teachers can analyze feedback to identify their strengths and 
   weaknesses, while administrators can gain insights into overall college performance and make 
   informed policy decisions.
 ```
