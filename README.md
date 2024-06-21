@@ -10,9 +10,9 @@ Feedify is a comprehensive student feedback analysis platform designed to stream
 - Student Submission: Students can easily fill out the assigned feedback forms, providing their 
   insights and opinions.
 - NLP Analysis:
-    ● Sentiment Analysis: Automatically assesses the overall sentiment of the feedback 
+    - Sentiment Analysis: Automatically assesses the overall sentiment of the feedback 
       (positive, negative, or neutral) and provides a percentage breakdown.
-    ● Text Summarization: Generates concise summaries of all responses to reduce the time 
+    - Text Summarization: Generates concise summaries of all responses to reduce the time 
       required for teachers to review feedback.
 - Data Visualization: Provides bar and pie chart analyses for multiple-choice questions, 
   offering clear and intuitive visual representations of the feedback data.
