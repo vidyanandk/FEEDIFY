@@ -1,5 +1,40 @@
-# FEEDIFY
+# Feedify - Student Feedback Analysis Platform
 
+# Overview
+```bash
+Feedify is a comprehensive student feedback analysis platform designed to streamline the process of collecting, analyzing, and understanding student feedback. This project utilizes modern web technologies, including ReactJS, NodeJS, ExpressJS, and TailwindCSS, alongside advanced Natural Language Processing (NLP) techniques powered by Hugging Face. The goal of Feedify is to enhance the feedback analysis process for college students, teachers, and administration, ultimately leading to improved educational experiences and institutional policies.
+```
+# Features
+```bash
+● Form Creation and Assignment: Admins can create feedback forms for specific subjects and 
+  assign them to the corresponding teachers and students.
+● Student Submission: Students can easily fill out the assigned feedback forms, providing their 
+  insights and opinions.
+● NLP Analysis:
+    ● Sentiment Analysis: Automatically assesses the overall sentiment of the feedback 
+      (positive, negative, or neutral) and provides a percentage breakdown.
+    ● Text Summarization: Generates concise summaries of all responses to reduce the time 
+      required for teachers to review feedback.
+● Data Visualization: Provides bar and pie chart analyses for multiple-choice questions, 
+  offering clear and intuitive visual representations of the feedback data.
+● Teacher and Admin Dashboards: Teachers can analyze feedback to identify their strengths and 
+  weaknesses, while administrators can gain insights into overall college performance and make 
+  informed policy decisions.
+```
+
+# Technologies Used
+```bash
+● Frontend:
+      ● ReactJS
+      ● TailwindCSS
+      ● HTML
+      ● JavaScript
+● Backend:
+      ● NodeJS
+      ● ExpressJS
+● NLP:
+     ● Hugging Face
+```
 -- in server
 ```bash
 
