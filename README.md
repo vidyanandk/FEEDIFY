@@ -73,11 +73,11 @@ To get started with Feedify, follow these steps:
 
 ```
 
-## Contibution
+## Contibuting
 Contributions are always welcome! Just raise an issue, we will discuss it.
 
 ## Contact
-For any questions or inquiries, please contact us at vidyanandkumar200502@gmail.com
+For any questions or inquiries, please contact us at  vidyanandkumar200502@gmail.com
 
 #
 Feedify is dedicated to improving the educational experience through effective and efficient feedback analysis. We hope this project will help teachers, students, and administrators work together to create a better learning environment.
