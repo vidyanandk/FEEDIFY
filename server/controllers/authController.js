@@ -64,6 +64,8 @@ const loginUser = async (req, res) => {
 
     // Check if user exists
     const user = await User.findOne({ email });
+
+   
     if (!user) {
       return res.json({
         error: "No user found",
@@ -110,7 +112,10 @@ const loginUser = async (req, res) => {
 };
 
 const getProfile = async (req, res) => {
-  const { token } = await req.cookies;
+  // console.log(req)
+  let { token } = await req.cookies;
+  // console.log(token)
+  // token=`eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NmM3NTM4YTkxY2JkZDQ2YmI4ZTllZCIsInVzZXJUeXBlIjoiQWRtaW4iLCJyb2xsSWQiOiJ2aWR5YTEyMyIsIm5hbWUiOiJ2aWR5YSIsImVtYWlsIjoidmlkeWFAbml0ai5hYy5pbiIsImlhdCI6MTcxODg5MTIyMn0.X301RmB2923o33pVB9--N5-ibfUF6273-RBMZ4ErIrs`
   if (token) {
     jwt.verify(token, process.env.JWT_SECRET, {}, (err, user) => {
       if (err) {
@@ -121,6 +126,7 @@ const getProfile = async (req, res) => {
       res.json({ user });
     });
   } else {
+    console.log("token errror at get prog")
     res.json(null);
   }
 };

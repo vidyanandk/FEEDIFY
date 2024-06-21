@@ -14,7 +14,7 @@ mongoose
 // Middleware
 const corsOptions={
   credentials: true,
-  origin: "https://feedify-frontend.vercel.app", // Ensure this URL matches exactly
+  origin: `${process.env.FRONTEND_URL}`, // Ensure this URL matches exactly
 }
 
 app.options('*', cors(corsOptions));

@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const cors = require("cors");
+const dotenv = require("dotenv").config();
 
 const {
   test,
@@ -26,7 +27,7 @@ const {
 router.use(
   cors({
     credentials: true,
-    origin: "https://feedify-frontend.vercel.app", // NEED CHANGES
+    origin: `${process.env.FRONTEND_URL}`, // Ensure this URL matches exactly
   })
 );
 
