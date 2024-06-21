@@ -39,26 +39,28 @@ Feedify is a comprehensive student feedback analysis platform designed to stream
 ## Installation
 To get started with Feedify, follow these steps:
  1. Clone the repository:
-    ```git clone https://github.com/vidyanandk/FEEDIFY.git```
- 2. Navigate to the project directory:
-    -Frontend
+    ```bash
+    git clone https://github.com/vidyanandk/FEEDIFY.git
+    ```
+ 3. Navigate to the project directory:
+    - Frontend
         ```bash
            cd frontend
            npm install
            npm run dev
         ```
-    -Backend
+    - Backend
         ```bash
             cd server
             npm install
             npm start
         ```
 
--CAUTION
+# CAUTION
 ```bash
 
-1. THERE IS SOME PROBLEM IN USEEFFECT IN USECONTEXT SO AFTER SUCCESSFUL LOGGED IN 
-    RELOAD the page .....
+1. THERE IS SOME PROBLEM IN USEEFFECT IN USECONTEXT SO AFTER SUCCESSFUL
+   LOGGED IN RELOAD the page .....
 
 2. Admin Email: vidya@nitj.ac.in
    Admin Password: 12345678
