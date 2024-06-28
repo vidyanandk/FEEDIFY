@@ -4,6 +4,21 @@
 
 Feedify is a comprehensive student feedback analysis platform designed to streamline the process of collecting, analyzing, and understanding student feedback. This project utilizes modern web technologies, including ReactJS, NodeJS, ExpressJS, and TailwindCSS, alongside advanced Natural Language Processing (NLP) techniques powered by Hugging Face. The goal of Feedify is to enhance the feedback analysis process for college students, teachers, and administration, ultimately leading to improved educational experiences and institutional policies.
 
+![Screenshot 2024-06-28 214947](https://github.com/vidyanandk/FEEDIFY/assets/141124787/5eca1b73-7ef8-4f2c-a0b7-1a29c32d2c3d)
+![Screenshot 2024-06-28 215106](https://github.com/vidyanandk/FEEDIFY/assets/141124787/9d69fe3e-77b4-4de6-8549-7ba005bcf035)
+![Screenshot 2024-06-28 215144](https://github.com/vidyanandk/FEEDIFY/assets/141124787/a23778cf-b9d8-4db1-8063-296300b1eada)
+![Screenshot 2024-06-28 221119](https://github.com/vidyanandk/FEEDIFY/assets/141124787/874d10e4-cf24-4350-b2c1-58b5749c06c7)
+![Screenshot 2024-06-28 221955](https://github.com/vidyanandk/FEEDIFY/assets/141124787/b38a8923-6cfa-43fa-977b-13a52f06cf65)
+![Screenshot 2024-06-28 222047](https://github.com/vidyanandk/FEEDIFY/assets/141124787/ead79fde-515b-4d89-a11a-9e93598d6331)
+![Screenshot 2024-06-28 222118](https://github.com/vidyanandk/FEEDIFY/assets/141124787/04eee893-1f19-4d47-a9d1-93f96a537f56)
+![Screenshot 2024-06-28 222303](https://github.com/vidyanandk/FEEDIFY/assets/141124787/7b67115b-0a45-4b12-999d-9048000949a7)
+![Screenshot 2024-06-28 222436](https://github.com/vidyanandk/FEEDIFY/assets/141124787/2d115188-fe82-4093-80a4-a2dedc38d0c1)
+![Screenshot 2024-06-28 223454](https://github.com/vidyanandk/FEEDIFY/assets/141124787/79451c72-dd02-49e3-b808-3ff8d5f86255)
+![image](https://github.com/vidyanandk/FEEDIFY/assets/141124787/530ea63d-9ded-4ccf-bb16-ddf2fcb94a5c)
+![Screenshot 2024-06-28 223931](https://github.com/vidyanandk/FEEDIFY/assets/141124787/363f0eb4-c591-4e45-9c81-0c9677004975)
+![Screenshot 2024-06-28 224120](https://github.com/vidyanandk/FEEDIFY/assets/141124787/d409bf66-83fd-4b5e-b37f-9d2b5fc88027)
+![Screenshot 2024-06-28 224218](https://github.com/vidyanandk/FEEDIFY/assets/141124787/56d101a0-206f-4661-b239-2ec26a8b9b13)
+
 # Features
 - Form Creation and Assignment: Admins can create feedback forms for specific subjects and 
   assign them to the corresponding teachers and students.
